@@ -15,8 +15,8 @@
 
   <body>
     <nav class="navbar navbar-expand-md navbar-light d-flex shadow-sm">
-      <div class="container-xxl ps-5 pe-5">
-        <a class="navbar-brand portfolio-header" href="#"><h3>Sherry Mayle</h3></a>
+      <div class="container-fluid ps-5 pe-5">
+        <a class="navbar-brand portfolio-header text-secondary" href="#"><h5>Sherry Mayle</h5></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -33,41 +33,90 @@
       </div>
     </nav>
     <div class="d-block">
-      <div class="aspectRatioBox cover-image mb-3 rounded" style="background-image: url('./images/web-dev-alt2.jpg')">
+      <div class="aspectRatioBox cover-image mb-3 rounded position-relative" style="background-image: url('./images/web-dev-alt3.jpg')">
+          <div class="d-flex flex-column align-items-start text-white position-absolute inner">
+            <div class="container-fluid my-auto">
+              <div id="textContainer" class="row">
+                <div class="col-8 mx-auto text-center rounded-3">
+                  <div class="row">
+                    <div class="col-12 d-none d-md-block outline">
+                      <h1>Sherry Mayle</h1>
+                    </div>
+                    <div class="col-12 d-none d-md-block outline py-2">
+                      <h3>Full-Stack Web Developer</h3>
+                    </div>
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-12 col-lg-4">
+                          <a class="btn btn-lg rounded-pill btn-outline-light w-100 mb-2" href="https://github.com/Smayle-hub/">
+                            <i class="fab fa-github"></i> GitHub
+                          </a>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                          <a class="btn btn-lg rounded-pill btn-outline-light w-100 mb-2" href="https://www.linkedin.com/in/sherrymariemayle/"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                          <a class="btn btn-lg rounded-pill btn-outline-light w-100 mb-2" href="mailto:sherrymariemayle@gmail.com"><i class="far fa-envelope"></i> Gmail</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
-    <div id="portfolio" class="container-xxl portfolio-section ps-5 pe-5 mt-5">
+    <div id="portfolio" class="container-fluid portfolio-section ps-5 pe-5 mt-5">
       <div class="row">
         <div class="col-4 mx-auto">
-          <h5 class="text-center">PORTFOLIO</h5>
+          <h4 class="text-center">Portfolio</h4>
         </div>
       </div>
       <div class="row mt-4">
-        <div class="card col-12 col-md-6 col-lg-6 mb-4">
+        <div class="card col-12 col-md-6 col-lg-6 col-xl-4 mb-4">
           <a href="https://frosty-babbage-d38d7c.netlify.app/" target="blank_">
             <div class="aspectRatioBox mb-3 rounded" style="background-image: url('./images/winter_release.PNG')">
             </div>
           </a>
-          <div>
-            <h5><a class="text-dark text-decoration-none" href="https://frosty-babbage-d38d7c.netlify.app/" target="blank_">AirBnB Press Clone</a></h5>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-9">
+              <h5><a class="text-dark text-decoration-none" href="https://frosty-babbage-d38d7c.netlify.app/" target="blank_">AirBnB Press Clone</a></h5>
+              <p><small>Clone of front-end of Airbnb press website.</small></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <p><small><i>HTML, CSS, Bootstrap 4, Mobile</i></small></p>
+            </div>
           </div>
         </div>
-        <div class="card col-12 col-md-6 col-lg-6 mb-4">
+        <div class="card col-12 col-md-6 col-lg-6 col-xl-4 mb-4">
           <a href="https://laughing-hypatia-d8119d.netlify.app/" target="blank_">
-            <div class="aspectRatioBox mb-3 rounded" style="background-image: url('./images/newsweek-clone.png')">
+            <div class="aspectRatioBox mb-3 rounded" style="background-image: url('./images/newsweek-alt.png')">
             </div>
           </a>
-          <div>
-            <h5><a class="text-dark text-decoration-none" href="https://laughing-hypatia-d8119d.netlify.app/" target="blank_">Newsweek Clone</a></h5>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-9">
+              <h5><a class="text-dark text-decoration-none" href="https://laughing-hypatia-d8119d.netlify.app/" target="blank_">Newsweek Clone</a></h5>
+              <p><small>Clone of front-end of Newsweek.</small></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <p><small><i>HTML, CSS, Bootstrap 4, Mobile</i></small></p>
+            </div>
           </div>
         </div>
-        <div class="card col-12 col-md-6 col-lg-6 mb-4">
+        <div class="card col-12 col-md-6 col-lg-6 col-xl-4 mb-4">
           <a href="https://suspicious-lamarr-fc90a3.netlify.app/" target="blank_">
             <div class="aspectRatioBox mb-3 rounded" style="background-image: url('./images/apple-clone.png')">
             </div>
           </a>
-          <div>
-            <h5><a class="text-dark text-decoration-none mb-2" href="https://suspicious-lamarr-fc90a3.netlify.app/" target="blank_">Apple Clone</a></h5>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-9">
+              <h5><a class="text-dark text-decoration-none mb-2" href="https://suspicious-lamarr-fc90a3.netlify.app/" target="blank_">Apple Clone</a></h5>
+              <p><small>Clone of front-end of Apple.</small></p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <p><small><i>HTML, CSS, Desktop</i></small></p>
+            </div>
           </div>
         </div>
       </div>

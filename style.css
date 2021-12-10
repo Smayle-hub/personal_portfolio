@@ -1,12 +1,33 @@
+
 .aspectRatioBox {
-  padding-top: calc(2 / 3 * 100%);
+  padding-top: calc(4.5 / 4 * 100%);
   background-size: cover;
   background-position: center;
+
 }
 
 .cover-image
 {
   padding-top: calc(1 / 3 * 100%) !important;
+}
+
+@media (min-width: 767px)
+{
+  .aspectRatioBox {
+    padding-top: calc(2 / 3 * 100%);
+  }
+}
+@media (max-width: 992px) {
+
+  .cover-image
+  {
+    padding-top: calc(1 / 2 * 100%) !important;
+  }
+}
+
+.btn {
+  white-space: normal;
+  text-overflow: clip;
 }
 
 .card {
@@ -19,4 +40,18 @@
 }
 .card:hover {
   box-shadow: 0 0 25px rgba(33,33,33,.2); 
+}
+
+.inner {
+  /* overlay the inner <div> exactly on top of its parent */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#textContainer .outline {
+
+  color: white;
 }
