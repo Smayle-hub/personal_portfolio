@@ -24,6 +24,13 @@
     padding-top: calc(1 / 2 * 100%) !important;
   }
 }
+@media (max-width: 767px)
+{
+  .cover-image
+  {
+    padding-top: calc(2.5 / 2 * 100%) !important;
+  }
+}
 
 .btn {
   white-space: normal;
@@ -54,4 +61,8 @@
 #textContainer .outline {
 
   color: white;
+}
+
+.blackBackground {
+  background-color: black;
 }
